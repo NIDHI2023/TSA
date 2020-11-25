@@ -9,113 +9,7 @@
 	
 <style>
 /* Style the header: https://designshack.net/articles/css/the-10-best-script-and-handwritten-google-web-fonts/   */
-.header {
-   font: 100 20px;
-   color: #0CE4D7;
-   text-align: center;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   height: 100px;
-   width: 90%;
-   font-family: 'Rubik', sans-serif;
-}
-/* The navbar container */
-.topnav {
-  font: 100 24px;
-  height: 60px;
-  width: 90%;
-  text-align: center;
-  margin-left: 150px;
-  margin-top: 5px;
-  margin-bottom: 25px;
-  padding-top: 10px;
-  font-size: 24px;
-  font-weight: bold;
-  font-family: 'Rubik', sans-serif;
-}
-/* Navbar links */
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 8px 10px;
-  text-decoration: none;
-}
-/* Links - change color on hover */
-.topnav a:hover {
-  background-color: GoldenRod ;
-  color: #38047B;
-}
-@media only screen and (max-width: 720px) {
-h2 {
-  font: 100 30px; 
-  color: black;
-  margin-left: 50px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding-top: 10px;
-  padding-bottom: 5px;	
-  font-family: 'Rubik', sans-serif;
 
- }
-h4 {
-  font: 100 20px; 
-  text-align: left;
-  font-size: 25px; 
-  color: black; 
-  margin-left: 50px; margin-right: 50px; 
-  margin-bottom: 10px; margin-top: 10px;
-  font-family: 'Rubik', sans-serif;
- }
-h6 {
-  font: 100 15px;
-  text-align: center;
-  font-size: 15px;
-  color: black;
-  margin-top:50px; margin-bottom:20px; 
-  font-family: 'Rubik', sans-serif;
- }
-}
-@media only screen and (min-width: 720px) {
-h2 {
-  font: 100 30px;
-  color: black;
-  margin-left: 100px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  font-family: 'Rubik', sans-serif;
- }
-h4 {
-  font: 100 20px;
-  text-align: left;
-  font-size: 25px;
-  color: black;
-  width: 85%;
-  margin-left: 100px; margin-right: 50px;
-  margin-right: 10px; margin-bottom: 10px;
-  font-family: 'Rubik', sans-serif;
- }
-h6 {
-  font: 100 15px;
-  text-align: center;
-  font-size: 15px;
-  color: black;
-  margin-top:50px;
-  margin-bottom:20px;
-  font-family: 'Rubik', sans-serif;
- }
-body {
-  background-image: url('images/new_background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-}
-}
 </style>
 
 <link rel="stylesheet" href="style.css">	
@@ -125,10 +19,10 @@ body {
 <body>
 	<script>
 		var x = 2020;
-		if(mouseX >= 50) {
-		x= 2021;
-		};
+		var y = mouseY;
 		document.body.innerHTML = "<h1>The year is " + x + "</h1>"
+		doucment.body.innerHTML = "<br> <br>"
+		document.body.innerHTML = "<h1>Your number is " + y + "h</h1>
 	</script>
 
 <div class="header"> 
@@ -142,8 +36,6 @@ body {
   <a href="index.html">HOME</a>
   <a href="categories.html">Categories</a>
   <a href="products.html">Products</a>
-  <a href="model_3.html">MODEL 3</a>
-  <a href="model_4.html">MODEL 4</a>
   <a href="contacts.html">CONTACT US</a>
   <a href="about.html">ABOUT</a>
   </center>
